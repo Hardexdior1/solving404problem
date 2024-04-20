@@ -1,0 +1,57 @@
+body{
+    padding: 20px 15%;
+    font-family: sans-serif;
+}
+@media (max-width:700px) {
+    body{
+    padding: 20px 1%;
+
+    }
+}
+pre{
+    color: white;
+    font-weight: bold;
+    overflow-x: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #282c34;
+    padding: 10px 10px ;
+
+
+}
+
+.flex button{
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+.test{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid grey ;
+    overflow-x: auto;
+
+}
+
+.test div{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 5px 5px burlywood;
+}
+
+h1{
+    font-size: 25px;
+}
+
+@media (max-width:500px) {
+    h1{
+        font-size: 18px;
+    }
+}
